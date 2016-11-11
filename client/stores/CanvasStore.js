@@ -36,12 +36,14 @@ class CanvasStore {
         ok: '#F4EC6A',
         burnt: '#2E4600',
         head: {
-          ok: '#BBCF4A',
+          ok: '#7AA802',
           burnt: '#486B00'
-        }
+        },
       },
-      empty: '#118AB2',
-      invisible: '#05668D',
+
+      empty: '#4897D8',
+      emptyBoth: '#2988BC',
+      invisible: '#006494',
       default: '#FFFFFF',
 
       blank: '#000000',
@@ -236,7 +238,8 @@ class CanvasStore {
             break;
 
           case 'empty':
-            color = this.colors.empty;
+            if (b1 && b2 && b1.type == 'empty' && b2.type == 'empty' && this.view == 3) color = this.colors.emptyBoth;
+            else color = this.colors.empty;
             break;
 
           case 'invisible':
