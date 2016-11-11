@@ -1,0 +1,4 @@
+node_modules/**
+public/libraries/**
+public/javascripts/build/**
+public/stylesheets/build/**

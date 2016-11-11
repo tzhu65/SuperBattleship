@@ -1,0 +1,20 @@
+{
+  "name": "webapp-base",
+  "description": "",
+  "main": "/bin/www",
+  "authors": [
+    "tony <tzhu65@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "font-awesome-sass": "^4.6.2",
+    "seiyria-bootstrap-slider": "^9.4.1",
+    "bootstrap3-dialog": "^1.35.3"
+  }
+}

@@ -1,0 +1,15 @@
+@import "../../libraries/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../../libraries/font-awesome-sass/assets/stylesheets/font-awesome";
+@import "../../libraries/seiyria-bootstrap-slider/dist/css/bootstrap-slider.min";
+@import "../../libraries/bootstrap3-dialog/dist/css/bootstrap-dialog";
+@import "./css/cover";
+@import "./css/helper";
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: font-path('/assets/fonts/glyphicons-halflings-regular.eot');
+  src: font-path('/assets/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+  font-path('/assets/fonts/glyphicons-halflings-regular.woff') format('woff'),
+  font-path('/assets/fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+  font-path('/assets/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
